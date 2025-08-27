@@ -66,6 +66,7 @@ form{
 
 .btn:hover{
     background-color: rgb(249, 206, 154);
+    cursor: pointer;
 }
 
 #beratbadan {
