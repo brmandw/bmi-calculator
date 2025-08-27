@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calc</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <h2><b>BMI Calculator</h2>
+        <h4>Cek berat badan ideal dengan kalkulator BMI</h4>
+            <div class="form">
+                <form id="form-data">
+                    <label for="beratbadan">Berat Badan (kg)</label>
+                    <input type="text" class="form-control" id="beratbadan" placeholder="Masukkan berat badan" />
+                    <label for="tinggibadan">Tinggi Badan (cm)</label>
+                    <input type="text" class="form-control" id="tinggibadan" placeholder="Masukkan tinggi badan">
+                    <br>
+                    <button class="btn" id="submit-form">Cek BMI</button>
+                </form>
+                <div id="hasil">
+                    <div class="result">
+                        <a>Hasil:</a> <br><br>
+                        <a id="nomor"></a> <br>
+                        <a id="ket"></a>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
