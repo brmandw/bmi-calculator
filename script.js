@@ -36,7 +36,7 @@ function validateFormData(obj) {
   );
 }
 
-function submit(event){ 
+function submitBMI(event){ 
   event.preventDefault() // mencegah halaman ke refresh
   const formData = handleGetFormData()
   const hasilbmi = bmi(formData)
@@ -58,10 +58,4 @@ function submit(event){
   } else {
     nomor.textContent = 'Gagal'
   }
-}
-
-
-const form = document.getElementById('form-data')
-if (form) {
-  form.addEventListener('submit', submit)
 }
